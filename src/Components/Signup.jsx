@@ -121,13 +121,13 @@ const Signup = () => {
     setOtp(otp);
     emailjs
       .send(
-        "service_4r3dsji",
-        "template_dy8wlmg",
+        "service_4qn27qk",
+        "template_3ncjsip",
         {
           to_email: email,
           otp: otp,
         },
-        "rSEiZFxLVOldQncdA"
+        "1SZt6VsgX2xSmaNgl"
       )
       .then((response) => {
         console.log("Email sent successfully:", response.status, response.text);
